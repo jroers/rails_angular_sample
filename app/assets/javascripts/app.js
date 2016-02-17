@@ -9,7 +9,7 @@ function config($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state('home', {
 			url: '/',
-			template: 'Hello',
+			templateUrl: 'home.html',
 			controller: 'HomeController',
 			controllerAs: 'home'
 		});
