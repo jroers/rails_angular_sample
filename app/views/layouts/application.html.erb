@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="SampleApp">
 <head>
   <title>RailsAngularSample</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -9,6 +9,6 @@
 <body>
 
 <%= yield %>
-
+<div data-ui-view></div>
 </body>
 </html>
